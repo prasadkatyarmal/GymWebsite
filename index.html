@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIP Fitness Club</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       html, body {
+        background-color: hsla(189, 74%, 52%, 0.103) !important; /* Light gray background color with !important */
+      }
+
+      /* Ensure content containers have transparent backgrounds */
+      .container, .container-fluid {
+        background-color: transparent;
+      }
+     .btn-primary {
+          background-color: #e0b92a !important; /* Gold color for background */
+          color: rgb(61, 35, 35) !important; /* Black text for contrast */
+          border-color: #4b3c08 !important; 
+      }
+    
+      .footer{
+        background-color: black;
+      }
+      
+      .carousel-inner img {
+          height: 650px; /* Set your desired height */
+          object-fit: cover; /* Maintains aspect ratio and ensures the image covers the entire area */
+      }
+
+      .facility {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.facility:hover {
+    transform: scale(1.05); /* Slightly increase size */
+    background-color: #c55757; /* Change background color */
+}
+ssss
+  </style>
+</head>
+<body>
+    <!--Header Section Starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">BIP Fitness Club</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#12345">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#5678">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Header Section Ends-->
+
+    <!--Carousal Section Starts-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Carousal3.jfif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            s
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <img src="Carousal1.jfif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="text-shadow: 2px 2px 4px;">Together We Thrive</h1>
+            <p style="text-shadow: 2px 2px 4px;">Fitness In Unity</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Carousal2.jfif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="text-shadow: 2px 2px 4px;">Mind, Body, 
+              Balance
+            </h1>
+            <p style="text-shadow: 2px 2px 4px;">Total wellness Redefined</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Courousal Section Ends-->
+    
+    <!--Hero Section Start --> 
+    <div class="container my-5"> 
+      <div class="text-center text h2 text-warning">OUR FACILITIES</div> 
+      <hr class="border border-3 border-warning">
+      <div class="row text-center"> 
+          <div class="col border border-3 facility"> 
+            <a href="#GymSection">
+              <img src="Gym.jfif" width="200px" height="150px" alt=""> 
+              GYM 
+            </a>
+          </div> 
+          <div class="col border border-3 facility">
+            <a href="#CardioSection"> 
+              <img src="Cardio.jfif" width="190px" height="150px" alt=""> 
+              CARDIO 
+            </a>
+          </div> 
+          <div class="col border border-3 facility"> 
+            <a href="#AerobicsSection">
+              <img src="Aerobics.jfif" width="190px" height="150px" alt=""> 
+              AEROBICS
+            </a> 
+          </div> 
+          <div class="col border border-3 facility"> 
+            <a href="#ZumbaSection">
+              <img src="Zumba.jfif" width="190px" height="150px" alt=""> 
+              ZUMBA 
+            </a>
+          </div> 
+          <div class="col border border-3 facility"> 
+            <a href="#YogaSection">
+              <img src="Yoga.jfif" width="200px" height="150px" alt=""> 
+              YOGA 
+            </a>
+          </div> 
+      </div> 
+  </div>
+  
+    <!--Hero Section End -->
+
+    <!--Gym Section Starts-->
+    <div class="container" id="GymSection">
+      <div class="row">
+        <div class="col">
+          <p class="h1 text-center text-warning mt-5">GYM
+            <hr class="border border-3 border-warning">
+            <p><img src="Gym1.jfif" class="w-100 mt-3" alt=""></p>
+            <p class="fs-4">
+              A gym, short for gymnasium (pl.: gymnasiums or gymnasia), is an indoor venue for exercise and sports. <br> 
+              The word is derived from the ancient Greek term "gymnasion". They are commonly found in athletic and fitness centres, 
+              and as activity and learning spaces <br> in educational institutions. <br>
+              "Gym" is also the commonly used name for a 
+              "fitness centre" or health club, which is often an area for indoor recreation. A "gym" may include or describe adjacent 
+              open air areas as well. <br> 
+              In Western countries, "gyms" often describe places with indoor or outdoor courts for basketball, 
+              hockey, tennis, boxing or wrestling, and with equipment and machines used for physical development training, or to do exercises. 
+              In many European countries, Gymnasium (and variations of the word) also can describe a secondary school that prepares students 
+              for higher education at a university, with or without the presence of athletic courts, fields, or equipment.
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Gym Section Ends-->
+  
+    <!--CARDIO Section Starts-->
+    <div class="container" id="CardioSection">
+      <div class="row">
+        <div class="col">
+          <p class="h1 text-center text-warning mt-5">CARDIO
+            <hr class="border border-3 border-warning">
+            <p><img src="Cardio.jfif" class="w-100 mt-3" alt=""></p>
+            <p class="fs-4">
+              Cardio (from Greek καρδίᾱ kardia, 'heart') may refer to: <br>
+              <ul>
+                <li>Of the Heart</li>
+                <li>Cardiology</li>
+                <li>Cardiovascular system</li>
+                <li>Cardiovascular fitness</li>
+                <li>Aerobic exercise, also known as cardio</li>
+                <li>Cardio (album), a 2010 album by Miguel Bosé</li>
+              </ul>
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--CARDIO Section Ends-->
+    
+
+    <!--AEROBICS Section Starts-->
+    <div class="container" id="AerobicsSection">
+      <div class="row">
+        <div class="col">
+          <p class="h1 text-center text-warning mt-5">AEROBICS
+            <hr class="border border-3 border-warning">
+            <p><img src="Aerobics.jfif" class="w-100 mt-3" alt=""></p>
+            <p class="fs-4">
+              Aerobics is a form of physical exercise that combines rhythmic aerobic exercise with stretching and strength training routines with the goal of improving all elements of fitness (flexibility, muscular strength, and cardio-vascular fitness). <br>
+              It is usually performed to music and may be practiced in a group setting led by an instructor (fitness professional). With the goal of preventing illness and promoting physical fitness, practitioners perform various routines. <br>
+              Formal aerobics classes are divided into different levels of intensity and complexity and will have five components: warm-up (5–10 minutes), cardiovascular conditioning (25–30 minutes), muscular strength and conditioning (10–15 minutes), cool-down (5–8 minutes) and stretching and flexibility (5–8 minutes). Aerobics classes may allow participants to select their level of participation according to their fitness level. Many gyms offer different types of aerobic classes. Each class is designed for a certain level of experience and taught by a certified instructor with a specialty area related to their particular class.
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--AEROBICS Section Ends-->
+
+    <!-- About Us Section Starts -->
+<div class="container my-5" id="12345">
+  <h2 class="text-warning">About BIP Fitness Club</h2>
+  <hr class="border border-3 border-warning">
+  <div class="row">
+      <div class="col-lg-6">
+          <p class="text-muted fs-3">
+              At BIP Fitness Club, we are committed to helping you achieve your fitness goals in a supportive and motivating environment. Whether you're looking to build muscle, improve your cardiovascular health, or find balance through yoga and aerobics, we have the facilities and expertise to guide you every step of the way.
+          </p>
+          <p class="text-muted fs-3">
+              Established in 2024, our club is equipped with state-of-the-art gym equipment, a dedicated cardio area, and spaces for group classes like Zumba, Yoga, and Aerobics. Our trainers are certified professionals who are passionate about fitness and wellness, offering personalized advice and programs tailored to your needs.
+          </p>
+          <a href="#" class="btn btn-primary my-2">Learn More</a>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <img src="About Us.jfif" class="img-fluid rounded shadow w-75" alt="About BIP Fitness Club">
+      </div>
+  </div>
+</div>
+
+<!--Cards Section Starts-->
+<div class="container" >
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="Personal-trainer-Card.jfif" class="card-img-top" alt="Personal Training">
+        <div class="card-body">
+          <h5 class="card-title">Personalized Training Programs</h5>
+          <p class="card-text">Our certified trainers are here to create personalized fitness plans that match your unique needs and goals. Whether you're just starting or are a seasoned athlete, we'll help you maximize your potential.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="Gym-Equipment-Card.jfif" class="card-img-top" alt="Gym Equipment">
+        <div class="card-body">
+          <h5 class="card-title">State-of-the-Art Equipment</h5>
+          <p class="card-text">Our fitness club features top-of-the-line gym equipment designed to cater to all your workout needs. From free weights to advanced cardio machines, we ensure you have the best tools to achieve your fitness goals.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="Gym-Community-Card.jfif" class="card-img-top" alt="Community Support">
+        <div class="card-body">
+          <h5 class="card-title">Community and Support</h5>
+          <p class="card-text">At BIP Fitness Club, we believe in fostering a strong community. Join a group of like-minded individuals who support each other in the journey towards better health and fitness, making every workout session enjoyable and motivating.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Cards Section Ends-->
+<!-- About Us Section Ends -->
+
+    <!--Contact Us Page Starts-->
+    <div class="container my-5" id="5678">
+      <h2 class="text-warning">Contact Us</h2>
+      <hr class="border border-3 border-warning">
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4139124024946!2d73.81622617372014!3d18.510188469494256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf91cf3d20d9%3A0x6a89b5c2dada4777!2sUnique%20System%20Skills%20India%20Pvt%20Ltd%20-%20Global%20Licensed%20IT%20Training%20%7C%20IT%20Recruiting%2C%20and%20Consulting%20in%20Kothrud%2C%20Pune!5e0!3m2!1sen!2sin!4v1722310138986!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col">
+          <address class="h6">
+            <h5>Address:</h5>
+            Pate Icon Building, B-Wing, Paud Rd, <br>
+            behind Chandu Kaka Saraf, Mahaganesh Colony,<br>
+            Kothrud, Pune, Maharashtra 411038 
+          </address>
+
+          <h5 class="my-3">Chat With Us:</h5>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-md-6 my-1">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-12">
+              <label for="chatmsg" class="form-label">Message</label>
+              <textarea class="form-control" id="chatmsg" rows="3" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div class="col-12 my-1">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12 my-1">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+    
+      </div>
+      
+          </div>
+    </div>
+    <!--Contact US Page End-->
+
+    <!--Footer Section Starts-->
+    <footer class="footer text-white text-center py-3 my-2">
+      <p>&copy; 2024 BIP Club. All Rights Reserved.</p>
+    </footer>
+    <!--Footer Section Ends-->
+    <!--JS Script Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--JS Script Link-->
+</body>
+</html>
